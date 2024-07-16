@@ -1,0 +1,38 @@
+/* Header */
+.header{
+    background-color: #000000;
+    border-bottom: 2px solid #2A7Ae4;
+    
+}
+
+.header__contenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 94px;
+}
+
+.header__btn{
+    display: inline-block;
+    color: #F5F5F5;
+    background-color: #000000;
+    border: 1px solid #F5F5F5;
+    border-radius: 4px;
+    font-size: 21px;
+    font-weight: 600;
+    width: 180px;
+    height: 54px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:386px ) {
+    .header__nav{
+        display:none;
+    }
+    .header__contenido{
+        justify-content: center;
+    }    
+}
