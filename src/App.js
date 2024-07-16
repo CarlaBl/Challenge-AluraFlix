@@ -4,12 +4,13 @@ import Home from './paginas/Home'
 import Header from './componentes/Header/Header'
 import Footer from './componentes/Footer/Footer'
 import Pagina404 from './paginas/Pagina404'
+import GlobalStyle from './GloblalStyle'
 
 function App () {
     return (
         <div className="App">
             <Router>
-            
+                <GlobalStyle />
                 <Header/>
                 <Routes>
                 <Route path='/' element={ <Home /> } />
