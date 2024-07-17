@@ -1,4 +1,4 @@
-import '../css/Pagina404.css'
+import './Pagina404.css'
 import LogoMenu from '../componentes/img/LogoMenu.png'
 
 const Page404 = ()=>{

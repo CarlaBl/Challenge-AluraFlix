@@ -1,4 +1,4 @@
-import VideoCard from "./VideoCard"
+import VideoCard from "../VideoCard/VideoCard.jsx"
 import { obtenerDatos } from "../api/api.js"
 import { useEffect, useState } from "react"
 
