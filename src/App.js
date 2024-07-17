@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './paginas/Home'
 import Header from './componentes/Header/Header'
 import Footer from './componentes/Footer/Footer'
+import NuevoVideo from './paginas/NuevoVideo';
 import Pagina404 from './paginas/Pagina404'
 import GlobalStyle from './GloblalStyle'
 
@@ -14,6 +15,7 @@ function App () {
                 <Header/>
                 <Routes>
                 <Route path='/' element={ <Home /> } />
+                <Route path='/nuevovideo' element={ <NuevoVideo /> }/>
                 <Route path='*' element={ <Pagina404/> } />
                 
                 </Routes>

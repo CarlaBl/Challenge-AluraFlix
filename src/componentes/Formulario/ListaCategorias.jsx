@@ -1,5 +1,5 @@
 import VideoCard from "./VideoCard"
-import { obtenerDatos } from "../api/api"
+import { obtenerDatos } from "../api/api.js"
 import { useEffect, useState } from "react"
 
 const ListaCategorias = () => {
